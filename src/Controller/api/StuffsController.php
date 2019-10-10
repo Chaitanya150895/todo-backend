@@ -8,8 +8,8 @@ class StuffsController extends AppController
 
     public $paginate = [
         'page' => 1,
-        'limit' => 5,
-        'maxLimit' => 15,
+        'limit' => 100,
+        'maxLimit' => 100,
         'sortWhitelist' => [
             'id', 'name'
         ]
